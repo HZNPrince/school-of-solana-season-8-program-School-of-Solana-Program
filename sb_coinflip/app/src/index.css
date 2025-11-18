@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Wallet button styling */
+.wallet-adapter-button-trigger {
+  background-color: #f97316 !important;
+  color: white !important;
+  font-weight: bold !important;
+  border-radius: 0.5rem !important;
+  padding: 0.75rem 1.5rem !important;
+  transition: background-color 0.2s !important;
+  border: none !important;
+}
+
+.wallet-adapter-button-trigger:hover {
+  background-color: #ea580c !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+/* Smooth animations */
+@keyframes slide-in-from-top {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-in {
+  animation: slide-in-from-top 0.3s ease-out;
+}
+
+/* Glass morphism effect */
+.backdrop-blur-md {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Enhanced button hover effects */
+button:not(:disabled):hover {
+  transition: all 0.2s ease;
+}
+
+button:not(:disabled):active {
+  transition: all 0.1s ease;
+}
