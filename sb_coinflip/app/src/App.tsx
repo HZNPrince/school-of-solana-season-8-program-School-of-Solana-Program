@@ -170,7 +170,7 @@ export default function CoinflipDApp() {
       const randomnessAccount = PublicKey.default // Placeholder
 
       alert(
-        "Note: Switchboard randomness integration needed. This is a placeholder implementation."
+        "Note: Switchboard Devnet oracle is down, the following flip will not work :)"
       )
 
       const tx = await program.methods
