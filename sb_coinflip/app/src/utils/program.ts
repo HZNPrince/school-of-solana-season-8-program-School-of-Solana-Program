@@ -1,5 +1,5 @@
 import { Program, AnchorProvider, BN } from "@coral-xyz/anchor"
-import { PublicKey, SystemProgram, Connection } from "@solana/web3.js"
+import { PublicKey, Connection } from "@solana/web3.js"
 import idl from "../idl/sb_coinflip.json"
 import type { SbCoinflip } from "../../types/sb_coinflip"
 
