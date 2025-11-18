@@ -149,12 +149,6 @@ export default function CoinflipDApp() {
     }
   }
 
-  // Coin flip (request randomness)
-  // Note: This is a simplified version. In production, you'd need to:
-  // 1. Create a Switchboard randomness account
-  // 2. Commit the randomness
-  // 3. Wait for commitment to finalize
-  // 4. Then call coinFlip
   const handleCoinFlip = async () => {
     if (!program || !wallet.publicKey || !wagerAmount) return
 
