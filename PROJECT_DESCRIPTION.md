@@ -3,7 +3,7 @@ IMPORTANT : The program will not work because Switchboard devnet is down and wil
 I have not implemented the correct switchboard implementation on the app(frontend) because there are several switchboard-side errors which are yet to be fixed by them causing it to site-crash
 
 Project Description
-Deployed Frontend URL: [TODO: Link to your deployed frontend]
+Deployed Frontend URL: https://coinflipbydev.vercel.app/
 
 Solana Program ID: 9WZbqYGMxAfaybk5m56J6yuYUW1ryyguSvJEtA884t8o
 
